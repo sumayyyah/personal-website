@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #4A154B;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 250px;
+            height: auto;
+            border-radius: 15px;
+            border: 5px solid #ff6b81;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ff6b81;
+            padding: 12px;
+        }
+        th {
+            background: #ff6b81;
+            color: white;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea {
+            border: 1px solid #ff6b81;
+        }
+        button {
+            background-color: #ff6b81;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #d43f57;
+        }
+        .bio {
+            font-size: 18px;
+            font-weight: bold;
+            color: #822659;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sumayyah Alenzi</h1>
+        <p class="bio">I am a developer passionate about AI technologies and data analysis. I love transforming ideas into impactful tech projects. Additionally, I enjoy drawing and exploring different cultures.</p>
+        <img src="https://static.vecteezy.com/system/resources/previews/014/194/216/non_2x/avatar-icon-human-a-person-s-badge-social-media-profile-symbol-the-symbol-of-a-person-vector.jpg" alt="My Profile Picture">
+        
+        <h2>About Me</h2>
+        <table>
+            <tr>
+                <th>Field</th>
+                <th>Skills</th>
+            </tr>
+            <tr>
+                <td>Programming</td>
+                <td>Python, UiPath, HTML</td>
+            </tr>
+            <tr>
+                <td>Languages</td>
+                <td>Arabic, English</td>
+            </tr>
+        </table>
+        
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
